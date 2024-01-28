@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class clientePrueba {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,9 +21,10 @@ public class clientePrueba {
 
     private String apellido;
 
+    @Column(name = "email", unique = true, nullable = false)
     private String email;
 
-    @Column(name = "Telefono", unique = true)
+
     private String telefono;
 
 
