@@ -1,0 +1,3 @@
+# CRUDy
+Aplicación web back-end desarrollada con Spring Boot y Spring MVC para construir una API REST de manera rápida y eficiente.
+Persistencia de datos manejada con JPA y MySQL. Mapeo objeto-relacional automatizado hacia las tablas de la base de datos. Cuenta con capas separadas para entidades, repositorios, servicios y controladores. Permite generar CRUD para los modelos de forma sencilla. Integrado con Swagger y Lombok para optimizar el desarrollo. Fácil de ejecutar como archivo JAR. Escalable horizontalmente. Lista para integrarse en el back-end con frontends o mobile apps que requieran un servicio de datos.
